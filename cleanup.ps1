@@ -1,1 +1,1 @@
-Remove-Item ./* -Recurse -Force -Exclude *.ps1
+Get-ChildItem -Directory | Remove-Item -Force -Recurse
